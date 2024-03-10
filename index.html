@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Frações</title>
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col form-container">
+                <h3>Fração 1</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="numera1">Numerador:</label>
+                        <input type="number" id="numera1" class="form-control">
+                        <label for="denomi1">Denominador:</label>
+                        <input type="number" id="denomi1" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="col form-container">
+                <h3>Fração 2</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="numera2">Numerador:</label>
+                        <input type="number" id="numera2" class="form-control">
+                        <label for="denomi2">Denominador:</label>
+                        <input type="number" id="denomi2" class="form-control">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" id="soma">Somar</button>
+            </div>
+            <div class="col">
+                <button type="button" id="subtrair">Subtrair</button>
+            </div>
+            <div class="col">
+                <button type="button" id="multiplicar">Multiplicar</button>
+            </div>
+            <div class="col">
+                <button type="button" id="dividir">Dividir</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div id="res"></div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
